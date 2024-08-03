@@ -7,7 +7,7 @@ import {
   useMotionValueEvent,
 } from "framer-motion";
 import { cn } from "./utils";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 // import Link from "next/link";
 
 export const FloatingNav = ({
@@ -18,6 +18,8 @@ export const FloatingNav = ({
     name: string;
     link: string;
     icon?: JSX.Element;
+    smooth?:boolean,
+    duration?:number
   }[];
   className?: string;
 }) => {
@@ -65,6 +67,8 @@ export const FloatingNav = ({
           <Link
             key={`link=${idx}`}
             to={navItem.link}
+            smooth={navItem.smooth}
+            duration={navItem.duration}
             className={cn(
               "relative text-neutral-50 items-center flex space-x-1  dark:hover:text-neutral-300 hover:text-neutral-500"
             )}

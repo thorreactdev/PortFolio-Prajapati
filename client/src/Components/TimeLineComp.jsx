@@ -7,8 +7,8 @@ import codsoft from "../assets/codesoft.jpg";
 
 export default function TimeLineComp() {
   return (
-    <div className='p-3 mt-5'>
-    <h1 className='text-white text-center text-2xl md:text-4xl my-10 font-medium'>Education And <span className='text-purple-600'>Experience</span></h1>
+    <div className='p-3 mt-5 cursor-pointer'>
+    <h1 className='text-white capitalize text-center text-2xl md:text-3xl lg:text-5xl font-semibold my-10'>Education And <span className='text-purple-600'>Experience</span></h1>
 <VerticalTimeline>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
@@ -19,7 +19,7 @@ export default function TimeLineComp() {
     icon={<IoSchoolSharp size="lg" />}
   >
     <h3 className="vertical-timeline-element-title">Bachelor of Science in Information Technology</h3>
-    <h4 className="vertical-timeline-element-subtitle  flex items-center gap-1"><FaLocationDot/>India, Mumbai <em>(CGPA: 8.98)</em></h4>
+    <h4 className="vertical-timeline-element-subtitle  flex items-center gap-1 text-sm"><FaLocationDot/>India, Mumbai <em>(CGPA: 8.98)</em></h4>
     <p className="capitalize">
       University : Mumabi University <br/>
       Achievement : Sem 5 college Topper<br/>
@@ -36,7 +36,7 @@ export default function TimeLineComp() {
   >
     <h3 className="vertical-timeline-element-title">Higher Secondary School Certificate (HSC)</h3>
 
-    <h4 className="vertical-timeline-element-subtitle flex items-center gap-1"><FaLocationDot/>India, Mumbai <em>(Percentage: 77.17%)</em></h4>
+    <h4 className="vertical-timeline-element-subtitle flex items-center gap-1 text-sm"><FaLocationDot/>India, Mumbai <em>(Percentage: 77.17%)</em></h4>
     <p>
       College: <abbr title='Ramniranjan Jhunjhunwala College'>RJ College</abbr>
     </p>
@@ -50,7 +50,7 @@ export default function TimeLineComp() {
     icon={<IoSchoolSharp />}
   >
     <h3 className="vertical-timeline-element-title">Secondary School Certificate</h3>
-    <h4 className="vertical-timeline-element-subtitle flex items-center gap-1"><FaLocationDot/>India, Mumbai <em>(Percentage: 74%)</em></h4>
+    <h4 className="vertical-timeline-element-subtitle flex items-center gap-1 text-sm"><FaLocationDot/>India, Mumbai <em>(Percentage: 74%)</em></h4>
     <p>
       School : Theresa High School
     </p>
@@ -66,18 +66,16 @@ export default function TimeLineComp() {
     }
   >
     <h3 className="vertical-timeline-element-title">Prodigy Infotech</h3>
-    <h4 className="vertical-timeline-element-subtitle flex items-center gap-1"><FaLocationDot/>India, Mumbai</h4>
+    <h4 className="vertical-timeline-element-subtitle flex items-center gap-1 text-sm"><FaLocationDot/>India, Mumbai</h4>
     <p>
       Role : Web Developer<br/>
       Job Type : Internship<br/>
-      Location : Remote<br/>
-      Duration : One Month
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentArrowStyle={{ borderRight: '7px solid  #ef4444' }}
-    contentStyle={{ background: '#ef4444', color: '#fff' }}
+    contentStyle={{ background: '#f97316', color: '#fff' }}
     date="Mar 2024 - Apr 2024"
     iconStyle={{ background: '#ef4444', color: '#fff' }}
     icon={
@@ -85,12 +83,10 @@ export default function TimeLineComp() {
     }
   >
     <h3 className="vertical-timeline-element-title">CodSoft</h3>
-    <h4 className="vertical-timeline-element-subtitle flex items-center gap-1"><FaLocationDot/>India, Mumbai</h4>
+    <h4 className="vertical-timeline-element-subtitle flex items-center gap-1 text-sm"><FaLocationDot/>India, Mumbai</h4>
     <p>
       Role : Web Developer<br/>
       Job Type : Internship<br/>
-      Location : Remote<br/>
-      Duration : One Month
     </p>
   </VerticalTimelineElement>
 </VerticalTimeline>

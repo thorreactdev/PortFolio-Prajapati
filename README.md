@@ -8,7 +8,7 @@
 # Description
 ## Overview
 
-Welcome to my portfolio! I am a passionate MERN stack developer with experience in creating dynamic and responsive web applications. This portfolio showcases some of the projects I have worked on and provides more information about my skills and experience.
+🌟 Welcome to my portfolio! I am a passionate MERN stack developer with experience in creating dynamic and responsive web applications. This portfolio showcases some of the projects I have worked on and provides more information about my skills and experience 🚀.
 
 ## Features
 

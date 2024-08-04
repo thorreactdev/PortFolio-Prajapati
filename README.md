@@ -27,5 +27,9 @@
 - **Database:** MongoDB
 - **Other:** Vite, Redux Toolkit
 
+##Contact
+- **Email:** prajapativinay140404@gmail.com
+- **Linked in:** https://www.linkedin.com/in/vinay-prajapati-3329b3289
+
 
 

@@ -1,6 +1,6 @@
 import { BackgroundBeams } from "../lib/AuroraBackground";
 import { Button } from "../lib/MovingBorder";
-import resume from "../assets/Vinay_Resume.pdf"
+import resume from "../assets/Vinay_Prajapati_Resume_2024.pdf";
 import { Link } from "react-router-dom";
 
 
